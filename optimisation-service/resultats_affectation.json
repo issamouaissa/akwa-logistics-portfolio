@@ -1,0 +1,48 @@
+[
+    {
+        "Camion": "77777-B-7",
+        "Capacite": 33.0,
+        "Kilometrage": 0.0,
+        "KM_30j": 1264.0,
+        "QuantiteDemandee": 34.0,
+        "QuantiteProgrammee": 33.0,
+        "Distance_km": 35.43,
+        "Duree_heures": 1.53,
+        "Commandes": [
+            {
+                "CommandeID": 63,
+                "Reference": "370019",
+                "Produits": [
+                    {
+                        "ProduitCode": 952303,
+                        "Quantite_DG": 30,
+                        "quantiteDemandee": 30.0,
+                        "quantiteProgrammee": 30
+                    },
+                    {
+                        "ProduitCode": 952304,
+                        "Quantite_DE": 3,
+                        "quantiteDemandee": 4.0,
+                        "quantiteProgrammee": 3
+                    }
+                ]
+            }
+        ],
+        "Quantites_Totales": {
+            "DG": 30.0,
+            "DE": 3.0,
+            "Total": 33.0
+        },
+        "Allocation_Compartiments": {
+            "gasoil": {
+                "0": 12.0,
+                "2": 4.0,
+                "3": 6.0,
+                "4": 8.0
+            },
+            "essence": {
+                "1": 3.0
+            }
+        }
+    }
+]
